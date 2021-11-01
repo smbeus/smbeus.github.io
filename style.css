@@ -108,11 +108,11 @@ footer img {
 .home-images img {
     display: inline-block;
     margin: 0;
-    max-width: 100%;
+    width: 100%;
 
 }
 
-@media only screen and (max-width: 767px) and (min-width: 480px) and (orientation: portrait) {
+@media only screen and (max-width: 767px) and (orientation: portrait) {
     .home-images {
       column-count: 1;
     }
@@ -135,7 +135,7 @@ footer img {
     
 }
 
-@media only screen and (max-width: 767px) and (min-width: 480px) {
+@media only screen and (max-width: 767px) {
     .gallery {
       column-count: 2;
     }
