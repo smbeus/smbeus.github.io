@@ -180,6 +180,7 @@ body {
 .modal-content {
     position: relative;
     display: flex;
+    z-index: 2;
     flex-direction: column;
     justify-content: center;
     margin: auto;
@@ -199,7 +200,8 @@ body {
     color: #5c9155;
     position: absolute;
     top: 35px;
-    right: 40px;
+    z-index: 3;
+    right: 30px;
     font-size: 30px;
     font-weight: bold;
     padding: 16px;
