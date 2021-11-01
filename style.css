@@ -112,7 +112,7 @@ footer img {
 
 }
 
-@media only screen and (max-width: 767px) and (min-width: 540px) {
+@media only screen and (max-width: 767px) and (min-width: 540px) and (orientation: portrait) {
     .home-images {
       column-count: 1;
     }
