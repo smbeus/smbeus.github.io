@@ -183,8 +183,6 @@ body {
     flex-direction: column;
     justify-content: center;
     margin: auto;
-    width: 65%;
-    min-width: 500px;
     max-width: 750px;
     }
 
@@ -245,6 +243,7 @@ body {
       font-size: 13px;
       padding-top: 10px;
   }
+
 
 
 /* Writing Ruleset */
