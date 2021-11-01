@@ -180,7 +180,6 @@ body {
 .modal-content {
     position: relative;
     display: flex;
-    z-index: 2;
     flex-direction: column;
     justify-content: center;
     margin: auto;
@@ -199,11 +198,11 @@ body {
   .close {
     color: #5c9155;
     position: absolute;
-    z-index: 3;
     top: 35px;
     right: 40px;
     font-size: 30px;
     font-weight: bold;
+    padding: 16px;
   }
   
   .close:hover,
