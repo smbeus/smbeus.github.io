@@ -115,6 +115,7 @@ footer img {
 @media only screen and (max-width: 767px) and (orientation: portrait) {
     .home-images {
       column-count: 1;
+      line-height: 0;
     }
   }
 
@@ -282,22 +283,20 @@ body {
 
 
 .about-images {
-    white-space: nowrap;
-    font-size: 0;
-    padding-bottom: 20px;
+    display: inline-block;
+    padding-bottom: 25;
+
 }
 
 
 .aboutme img {
-    
     height: auto;
-    width: 300px;
+    max-width: 500px;
     padding: 0;
     margin: 0;
 }
 
-figure.about-fig {
-    display: inline-block;
+figure.about-fig {   
     position: relative;
     line-height: 0;
     margin: 0;
@@ -327,7 +326,7 @@ figure:hover figcaption.about-caption {
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
     font-size: 35px;
-    padding-top: 0;
+    padding-top: 25px; 
     margin-top: 10px;
    
 }
