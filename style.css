@@ -350,7 +350,7 @@ figure:hover figcaption.about-caption {
 
 .aboutme a {
     font-weight: semi-bold;
-    font-size: 16px;
+    font-size: 12px;
     color: #5c9155;
     padding: 0;
 }
@@ -359,14 +359,14 @@ figure:hover figcaption.about-caption {
     font-weight: normal;
     background-color: rgba(157, 189, 118, 0.9);
     border-radius: 50%;
-    width: 300px;
-    height: 300px;
+    width: 320px;
+    height: 320px;
     margin: auto;
     
 }
 
 .contact h3 {
-    padding-top: 70px;
+    padding-top: 75px;
     color: #F7FAF7;
 }
 
@@ -374,7 +374,7 @@ figure:hover figcaption.about-caption {
     color: #F7FAF7;
     text-align: left;
     position: relative;
-    left: 40px;
+    left: 30px;
 }
 
 .contact a {
@@ -382,6 +382,6 @@ figure:hover figcaption.about-caption {
     color: #F7FAF7;
 }
 
-.contact a:hover {
+.link a:hover {
     color: #5c9155;
 }
