@@ -267,6 +267,8 @@ body {
 
 .blog h2 {
     color: #5c9155;
+    width: 75%;
+    margin: auto;
 }
 
 .blog-heading {
