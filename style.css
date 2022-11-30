@@ -290,6 +290,16 @@ body {
     
 }
 
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+    .blog-content {
+      width: 85%;
+    }
+
+    .blog-heading {
+        width: 85%;
+    }
+  }
+
 .blog-sources {
     font-size: 15px;
     color: #5c9155;;
