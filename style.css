@@ -250,17 +250,12 @@ body {
 }
 .writing-links {
     text-align: left;
-    width: 50%;
+    position: relative;
+    display: inline-block;
     margin: auto;
     list-style-type: none;
-    line-height: 30px;
+    line-height: 45px;
 }
-
-@media only screen and (max-width: 767px) and (orientation: portrait) {
-    .writing-links {
-        width: 75%;
-    }
-  }
 
 .writing-links a:hover {
     color: #9dbd76;
