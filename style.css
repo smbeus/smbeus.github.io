@@ -254,13 +254,16 @@ body {
     display: inline-block;
     margin: auto;
     list-style-type: none;
-    line-height: 45px;
+    line-height: 22px;
 }
 
 .writing-links a:hover {
     color: #9dbd76;
 }
 
+.writing-links li {
+    margin: 20px 0;
+}
 
 .blog h2 {
     color: #5c9155;
