@@ -250,17 +250,56 @@ body {
 }
 .writing-links {
     text-align: left;
-    position: relative;
-    display: inline-block;
+    width: 50%;
     margin: auto;
     list-style-type: none;
-    line-height: 30px
+    line-height: 30px;
 }
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+    .writing-links {
+        width: 75%;
+    }
+  }
 
 .writing-links a:hover {
     color: #9dbd76;
 }
 
+
+.blog h2 {
+    color: #5c9155;
+}
+
+.blog-heading {
+    font-size: 13px;
+    color: #5c9155;;
+    text-align: left;
+    width: 75%;
+    margin: auto;
+    line-height: 5px;
+}
+
+.blog-content {
+    text-align: left;
+    width: 75%;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: black;
+    
+}
+
+.blog-sources {
+    font-size: 15px;
+    color: #5c9155;;
+    text-align: left;
+    width: 75%;
+    margin: auto;
+    line-height: 18px;
+    text-indent: -36px;
+    padding-left: 36px;
+}
 
 /* About Rulesets */
 
